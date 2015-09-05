@@ -1,0 +1,22 @@
+
+// Website Header
+
+header.site-header {
+  @include grid-row();
+  .site-branding {
+    @include grid-column(6);
+    .site-title {
+      font-size: rem-calc(16);
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    .site-description {
+      font-size: rem-calc(16);
+      margin: 0;
+      padding: 0;  
+    }
+  }
+    @import "navigation";
+}
+

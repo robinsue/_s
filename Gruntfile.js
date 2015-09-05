@@ -12,7 +12,7 @@ module.exports = function(grunt) {
           sourceMap: true,
         },
         files: {
-          'assets/css/style.css': 'sass/app.scss'
+          'assets/dist/css/style.css': 'assets/scss/app.scss'
         }
       }
     },
@@ -26,7 +26,7 @@ module.exports = function(grunt) {
       },
 
       sass: {
-        files: 'scss/**/*.scss',
+        files: 'assets/scss/**/*.scss',
         tasks: ['sass']
       }
     }

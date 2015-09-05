@@ -1,0 +1,10 @@
+
+// Website Footer
+
+footer.site-footer {
+  @include grid-row();
+  .site-info {
+    @include grid-column(12);
+  }
+}
+

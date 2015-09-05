@@ -1,0 +1,18 @@
+
+// Website Main Layout
+
+.site-content {
+	@include grid-row();
+	.content-area {
+		@include grid-column (12);
+		@media #{$medium-up} {
+			@include grid-column (8);
+		}
+	}
+	.widget-area {
+		@include grid-column (12);
+		@media #{$medium-up} {
+			@include grid-column (4);
+		}
+	}
+}
