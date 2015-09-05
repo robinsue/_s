@@ -1,4 +1,22 @@
+// Normalize
 @import "normalize";
+
+// _s Default Styles
+@import "../../sass/variables-site/variables-site";
+@import "../../sass/mixins/mixins-master";
+@import "../../sass/typography/typography";
+@import "../../sass/elements/elements";
+@import "../../sass/forms/forms";
+@import "../../sass/navigation/navigation";
+@import "../../sass/modules/accessibility";
+@import "../../sass/modules/alignments";
+@import "../../sass/modules/clearings";
+@import "../../sass/site/secondary/widgets";
+@import "../../sass/site/site";
+@import "../../sass/modules/infinite-scroll";
+@import "../../sass/media/media";
+
+// Foundation Settings
 @import "settings";
 
 // Foundation modules (Only include required):
@@ -41,7 +59,6 @@
 
 
   // Theme styling:
-
   @import "header/header";
   @import "site/site";  
   @import "footer/footer";
